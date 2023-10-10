@@ -1,0 +1,18 @@
+ ---> steps to push ( PROJECT/CODE ) into Github
+
+ 1. git config --global user.name "harsh vardhan"
+ 2. git config --global user.email "harsh.vardhan.met22@itbhu.ac.in"
+ 3. git clone <link> (Github ----> Local ( laptop / PC)) // Repo -> code -> HTTPS -> Link
+ 4. git status
+ 5. ls -a (for hidden files)  
+ 
+-----------------> Open Folder that you want to push <-----------------
+
+a. git init -> changes -> ctr SAVE
+b. git add .
+c. git commit -m "meaningful Line"
+d. git remote add origin <Repo LINK>
+e. git remote -v (to verify remote)
+f. git branch (to check branch)
+g. git branch -M _____XYZ (to rename branch)
+h. git push -u origin (main -> (branch-name))
